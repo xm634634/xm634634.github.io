@@ -4,6 +4,45 @@
   
     
     <entry>
+      <title>📺 MoonTV 凉了？全网影视“白嫖”终极避坑指南：安卓/iOS 完美复活方案</title>
+      <link href="/2025/12/28/tvbox-guide/"/>
+      <url>/2025/12/28/tvbox-guide/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-The-Context：这一局，我们换个打法"><a href="#1-The-Context：这一局，我们换个打法" class="headerlink" title="1. The Context：这一局，我们换个打法"></a>1. The Context：这一局，我们换个打法</h3><p>很多群友在问：“小白，MoonTV 怎么挂了？LunaTV 还能用吗？”<br><strong>承认吧，网页版影视站的时代正在落幕。</strong></p><p>当我们在谈论 Docker 部署、Cloudflare 穿透时，本质上是在跟 DMCA（数字千年版权法）玩猫鼠游戏。只要域名一红，你的所有心血瞬间归零。这是典型的**“高维护成本、低生存率”**。</p><p><strong>真正的数字主权，不应该建立在随时可能崩塌的沙堡上。</strong><br>今天要带大家“降维打击”：从云端撤退，回归<strong>本地客户端</strong>。这不仅是避险，更是为了那一份“打开就能看”的稳稳的幸福。</p><hr><h3 id="2-The-Insight：复杂是脆弱的，简单才是反脆弱"><a href="#2-The-Insight：复杂是脆弱的，简单才是反脆弱" class="headerlink" title="2. The Insight：复杂是脆弱的，简单才是反脆弱"></a>2. The Insight：复杂是脆弱的，简单才是反脆弱</h3><p>Naval 说过：“杠杆有三种：劳动力、资本、代码。”<br>之前我们试图用代码（Docker）去撬动体验，结果被资本（版权方）暴打。<br>现在我们要换一种杠杆：<strong>去中心化的“壳” + 动态的“源”</strong>。</p><ul><li><strong>壳 (Client)</strong>：只是一个播放器，没有任何违规数据，活得久。</li><li><strong>源 (Interface)</strong>：随时可替换的 JSON 链接，死了就换。</li></ul><p>这就是 <strong>TVBox</strong> 生态的核心逻辑。它把风险分散了，让你拥有了真正的“观影自由”。</p><hr><h3 id="3-The-Protocol：安卓全系实战-保姆级喂饭"><a href="#3-The-Protocol：安卓全系实战-保姆级喂饭" class="headerlink" title="3. The Protocol：安卓全系实战 (保姆级喂饭)"></a>3. The Protocol：安卓全系实战 (保姆级喂饭)</h3><p>安卓是这套玩法的“舒适区”，但“壳”的版本如果不匹配，你会陷入无限闪退的噩梦。请严格对号入座：</p><h4 id="🔧-手机-平板端：移动战车"><a href="#🔧-手机-平板端：移动战车" class="headerlink" title="🔧 手机&#x2F;平板端：移动战车"></a>🔧 手机&#x2F;平板端：移动战车</h4><p>不要在手机上装电视版的 TVBox，操作反人类。</p><ul><li><strong>手机党</strong>：推荐 <strong>OK影视</strong>。界面像原生 App，竖屏交互丝滑。<ul><li><em>进阶玩法</em>：配合 <strong>1DM+</strong> 下载器，从在线看变成“离线存”，彻底摆脱网速焦虑。</li></ul></li></ul><h4 id="📺-电视-盒子端：客厅霸主-请看清型号！"><a href="#📺-电视-盒子端：客厅霸主-请看清型号！" class="headerlink" title="📺 电视&#x2F;盒子端：客厅霸主 (请看清型号！)"></a>📺 电视&#x2F;盒子端：客厅霸主 (请看清型号！)</h4><p>这里是重灾区！版本选错，要么装不上，要么卡成 PPT。</p><p><strong>A. 🏴 黑壳战队 (Black Shell) -&gt; 核心代号：<code>takagen99</code></strong></p><ul><li><strong>适用设备</strong>：高性能电视（索尼&#x2F;三星&#x2F;2020年后的小米）、旗舰盒子、安卓平板。</li><li><strong>技术特性</strong>：基于 <code>takagen99</code> 构建，解码能力强，UI 现代。</li><li><strong>架构选择</strong>：首选 <code>arm64-v8a</code> (64位)。</li></ul><p><strong>B. 🏳️ 白壳战队 (White Shell) -&gt; 核心代号：<code>q215613905</code></strong></p><ul><li><strong>适用设备</strong>：老旧电视（海信&#x2F;创维&#x2F;老小米）、投影仪、运营商送的百元 IPTV 盒子。</li><li><strong>技术特性</strong>：基于 <code>q215613905</code> 构建，极度精简，只为“活着”。</li><li><strong>架构选择</strong>：通常为 <code>armeabi-v7a</code> (32位)。<strong>如果你不知道选什么，或者老电视装黑壳闪退，选这个保命。</strong></li></ul><h4 id="⚠️-Sentry’s-Warning：接口源的陷阱"><a href="#⚠️-Sentry’s-Warning：接口源的陷阱" class="headerlink" title="⚠️ Sentry’s Warning：接口源的陷阱"></a>⚠️ Sentry’s Warning：接口源的陷阱</h4><blockquote><p><strong>关于“饭太硬”</strong>：这是一个很出名的源，但我最近<strong>不推荐</strong>。因为太出名，导致部分运营商（ISP）直接在 DNS 层面进行了阻断，表现为“一直转圈加载不出”。<br><strong>我的建议</strong>：首选 <strong>毒盒</strong> 或 <strong>肥猫</strong> 接口，稳字当头。</p></blockquote><hr><h3 id="4-iOS-Deep-Dive：苹果生态的“越狱”博弈"><a href="#4-iOS-Deep-Dive：苹果生态的“越狱”博弈" class="headerlink" title="4. iOS Deep Dive：苹果生态的“越狱”博弈"></a>4. iOS Deep Dive：苹果生态的“越狱”博弈</h3><p>如果你是 iOS 用户，请坐直了。这一段不仅是教程，更是关于<strong>苹果封锁机制</strong>的硬核科普。</p><h4 id="🍎-核心痛点：为什么-iPhone-很难装影视-App？"><a href="#🍎-核心痛点：为什么-iPhone-很难装影视-App？" class="headerlink" title="🍎 核心痛点：为什么 iPhone 很难装影视 App？"></a>🍎 核心痛点：为什么 iPhone 很难装影视 App？</h4><p>因为苹果构建了一个价值万亿的“围墙花园”。一个 App 想在你的 iPhone 上运行，必须有**“数字签名” (Certificate)**。</p><ul><li><strong>正规军</strong>：开发者向苹果交 <strong>$299&#x2F;年</strong> 保护费（企业证书），苹果发证，App 才能运行。</li><li><strong>游击队 (我们)</strong>：我们用的是“iBox”这种第三方 App，它通常使用的是<strong>流出&#x2F;被盗用的企业证书</strong>。</li></ul><h4 id="🧠-科普：掉签-Revoke-的本质"><a href="#🧠-科普：掉签-Revoke-的本质" class="headerlink" title="🧠 科普：掉签 (Revoke) 的本质"></a>🧠 科普：掉签 (Revoke) 的本质</h4><p>你可能会看到证书上写着“有效期至 2026 年”，于是你放心地用了。<strong>错！</strong><br>苹果有“巡逻队”。一旦他们发现这个企业证书被滥用于分发盗版 App，会立即在服务器端**“撤销” (Revoke)** 该证书。<br>此时，你的手机只要联网，去询问苹果服务器：“老大，这个证书还管用吗？”<br>苹果服务器回答：“已作废。” <strong>BOOM 💥</strong>，你的 App 瞬间打不开。</p><h4 id="🛡️-解决方案：掩耳盗铃-DNS-屏蔽"><a href="#🛡️-解决方案：掩耳盗铃-DNS-屏蔽" class="headerlink" title="🛡️ 解决方案：掩耳盗铃 (DNS 屏蔽)"></a>🛡️ 解决方案：掩耳盗铃 (DNS 屏蔽)</h4><p>既然问题出在“手机去询问苹果服务器”，那我们<strong>不让它问</strong>不就行了？这就是<strong>屏蔽 DNS</strong> 的底层逻辑。</p><ol><li><strong>原理</strong>：利用配置描述文件，阻断手机连接苹果的验证服务器 (<code>ocsp.apple.com</code> 等)。</li><li><strong>效果</strong>：手机因为连不上验证服务器，会默认“本地证书”是有效的（因为没人告诉它失效了）。</li><li><strong>结论</strong>：只要屏蔽成功，你就能把那个随时会挂的免费证书，强行用到它理论上的过期日。</li></ol><h4 id="🚀-iOS-操作步骤"><a href="#🚀-iOS-操作步骤" class="headerlink" title="🚀 iOS 操作步骤"></a>🚀 iOS 操作步骤</h4><ol><li>下载 <strong>iBox</strong> (IPA文件)。</li><li><strong>关键步骤</strong>：在安装前，必须先配置 <strong>DNS 屏蔽描述文件</strong>（资源包里有）。</li><li>如果不做这一步，不要来问我为什么三天就打不开了。这是<strong>物理定律</strong>。</li></ol><hr><h3 id="5-资源空投-Resources"><a href="#5-资源空投-Resources" class="headerlink" title="5. 资源空投 (Resources)"></a>5. 资源空投 (Resources)</h3><p>为了防止你们在 GitHub 迷路或下载慢到流鼻血，我整理了 Quark 盘和加速方案。</p><ul><li><p><strong>📺 TVBox (黑壳 + 白壳 安卓4.0)</strong>:<br>  <code>https://github.com/o0HalfLife0o/TVBoxOSC/releases</code></p><ul><li><em>小白加速技</em>：打不开 GitHub？在该链接前加上 <code>https://github.zer0ne.dpdns.org/</code> 即可满速下载。</li></ul></li><li><p><strong>📦 安卓全家桶 (OK影视 + 1DM+)</strong>:<br>  <code>https://pan.quark.cn/s/de6d689e3c16#/list/share</code></p></li><li><p><strong>🍎 iOS iBox (自签版 + 证书巨魔版)</strong>:<br>  <code>https://pan.quark.cn/s/9849105c4a92#/list/share</code></p></li></ul><hr><h3 id="Next-Step-for-You"><a href="#Next-Step-for-You" class="headerlink" title="Next Step for You"></a>Next Step for You</h3><p>先去确认你家电视的“年纪”。<br>如果是 3 年以上的老旧机型，不要犹豫，直接去下载资源包里文件名带 <strong>“q215613905”</strong> 的白壳版本，这能省去你 2 小时的无效折腾。</p><p><strong>我是安小白，你的技术守夜人。</strong><br>如果这篇“避坑指南”帮你的电视复活了，记得加入我的社群，我们下期讲讲如何用零成本搭建自己的私人密码库。🔒</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数字生活 </category>
+          
+          <category> 影音娱乐 </category>
+          
+          <category> 黑科技 </category>
+          
+          <category> 避坑指南 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> TVBox </tag>
+            
+            <tag> iOS </tag>
+            
+            <tag> 影视 </tag>
+            
+            <tag> 避坑指南 </tag>
+            
+            <tag> OK影视 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux 红队工作站终极迁移指南：EndeavourOS (LTS) + eBPF</title>
       <link href="/2025/12/26/Windows%20to%20Linux/"/>
       <url>/2025/12/26/Windows%20to%20Linux/</url>
